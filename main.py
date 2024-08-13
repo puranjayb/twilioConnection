@@ -14,7 +14,7 @@ class AlertMessage(BaseModel):
 
 @app.post("/send_alert_message")
 def sendAlertMessage(alertMessage: AlertMessage):
-    # example: phone_no=+918854901416 (country code +91)
+    # example: phone_no=+910000000000 (country code +91)
     # example: message=xyz
 
     try:
